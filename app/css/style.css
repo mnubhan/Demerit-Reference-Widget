@@ -21,6 +21,15 @@ textarea{
     float:left;
     box-sizing: border-box;
 }
-.contentBody{
-
+table{
+    position:absolute;
+    right:0;
+    left:0;
+    margin:auto;
 }
+table,th,td{
+    border: 1px solid #000;
+    border-collapse: collapse;
+    padding: 10px;
+}
+

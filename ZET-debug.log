@@ -48,3 +48,15 @@ Require stack:
     at Command.emit (node:events:513:28)
     at Command.parseArgs (/usr/local/lib/node_modules/zoho-extension-toolkit/node_modules/commander/index.js:651:12)
     at Command.parse (/usr/local/lib/node_modules/zoho-extension-toolkit/node_modules/commander/index.js:474:21)
+[error] [2024-07-09T09:58:38.509Z] : ✖ Below file formats are not allowed in Sigma
+[info] [2024-07-09T09:58:38.510Z] :  ==> app/js/createRowTable.mjs
+[info] [2024-07-09T09:58:38.510Z] :  ==> app/js/custom.mjs
+[info] [2024-07-09T09:58:38.510Z] :  ==> app/js/jquery-min.mjs
+[info] [2024-07-09T09:58:38.510Z] :  ==> app/js/main.mjs
+[info] [2024-07-09T09:58:38.510Z] : Note - File formats that can be packed are: txt, md, xml, dre, jpg, jpeg, png, gif, css, js, html, json, mp3, svg, woff, ttf, eot, webm, mp4, and woff2
+[error] [2024-07-09T09:58:38.513Z] : ✖ Below file formats are not allowed in Sigma
+[info] [2024-07-09T09:58:38.513Z] :  ==> app/js/createRowTable.mjs
+[info] [2024-07-09T09:58:38.513Z] :  ==> app/js/custom.mjs
+[info] [2024-07-09T09:58:38.513Z] :  ==> app/js/jquery-min.mjs
+[info] [2024-07-09T09:58:38.513Z] :  ==> app/js/main.mjs
+[info] [2024-07-09T09:58:38.513Z] : Note - File formats that can be packed are: txt, md, xml, dre, jpg, jpeg, png, gif, css, js, html, json, mp3, svg, woff, ttf, eot, webm, mp4, and woff2
