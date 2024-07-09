@@ -1,9 +1,10 @@
 {
   "name": "zoho-app",
   "version": "0.0.1",
+  "type" : "module",
   "private": true,
   "scripts": {
-    "start": "node server/index.js"
+    "start": "node server/index.cjs"
   },
   "dependencies": {
     "body-parser": "^1.14.2",

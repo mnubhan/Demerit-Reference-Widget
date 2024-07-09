@@ -2,8 +2,8 @@
 	<head>
 	  <link rel="stylesheet" href="../css/style.css">
 	  <script src="../js/lib/ZohoEmbededAppSDK.min.js"></script>
-	  <script src="../js/custom.js"></script>
-	  <script src="../js/jquery-min.js"></script>
+	  <script type="module" src="../js/custom.mjs"></script>
+	  <script type="module" src="../js/jquery-min.mjs"></script>
 	</head>
 	<body>
 		<div class="topband">
@@ -19,10 +19,17 @@
 			<textarea id="recordInfo" contentEditable>		
 			</textarea>
 		</div>
-		<script type="text/javascript">
-			$(document).ready(function(){
-				initializeWidget();
-			})
+		<table>
+			<thead>
+				<tr>
+					<th scope="col">Company</th>
+					<th scope="col">Last Name</th>
+				</tr>
+			</thead>
+			<tbody class="table-body">
+			</tbody>
+		</table>
+		<script type="module" src="../js/main.mjs">
 		</script>
 	</body>
 </html>

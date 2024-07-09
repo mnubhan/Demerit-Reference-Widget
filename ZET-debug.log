@@ -1,0 +1,50 @@
+[error] [2024-06-26T16:00:27.480Z] : ✖ Error in parsing CLI command : Error [ERR_REQUIRE_ESM]: require() of ES Module /Users/mnubhan/Documents/Work/Aplikasi Sempurna/Project/Shimadzu/Demerit-Reference-Widget/server/index.js from /usr/local/lib/node_modules/zoho-extension-toolkit/lib/commands/run.js not supported.
+index.js is treated as an ES module file as it is a .js file whose nearest parent package.json contains "type": "module" which declares all .js files in that package scope as ES modules.
+Instead rename index.js to end in .cjs, change the requiring code to use dynamic import() which is available in all CommonJS modules, or change "type": "module" to "type": "commonjs" in /Users/mnubhan/Documents/Work/Aplikasi Sempurna/Project/Shimadzu/Demerit-Reference-Widget/package.json to treat all .js files as CommonJS (using .mjs for all ES modules instead).
+
+    at Object.run (/usr/local/lib/node_modules/zoho-extension-toolkit/lib/commands/run.js:11:5)
+    at Command.<anonymous> (/usr/local/lib/node_modules/zoho-extension-toolkit/index.js:66:33)
+    at Command.listener (/usr/local/lib/node_modules/zoho-extension-toolkit/node_modules/commander/index.js:315:8)
+    at Command.emit (node:events:513:28)
+    at Command.parseArgs (/usr/local/lib/node_modules/zoho-extension-toolkit/node_modules/commander/index.js:651:12)
+    at Command.parse (/usr/local/lib/node_modules/zoho-extension-toolkit/node_modules/commander/index.js:474:21)
+    at Object.<anonymous> (/usr/local/lib/node_modules/zoho-extension-toolkit/index.js:203:12)
+[error] [2024-06-26T16:03:50.630Z] : ✖ Error in parsing CLI command : Error [ERR_REQUIRE_ESM]: require() of ES Module /Users/mnubhan/Documents/Work/Aplikasi Sempurna/Project/Shimadzu/Demerit-Reference-Widget/server/index.js from /usr/local/lib/node_modules/zoho-extension-toolkit/lib/commands/run.js not supported.
+index.js is treated as an ES module file as it is a .js file whose nearest parent package.json contains "type": "module" which declares all .js files in that package scope as ES modules.
+Instead rename index.js to end in .cjs, change the requiring code to use dynamic import() which is available in all CommonJS modules, or change "type": "module" to "type": "commonjs" in /Users/mnubhan/Documents/Work/Aplikasi Sempurna/Project/Shimadzu/Demerit-Reference-Widget/package.json to treat all .js files as CommonJS (using .mjs for all ES modules instead).
+
+    at Object.run (/usr/local/lib/node_modules/zoho-extension-toolkit/lib/commands/run.js:11:5)
+    at Command.<anonymous> (/usr/local/lib/node_modules/zoho-extension-toolkit/index.js:66:33)
+    at Command.listener (/usr/local/lib/node_modules/zoho-extension-toolkit/node_modules/commander/index.js:315:8)
+    at Command.emit (node:events:513:28)
+    at Command.parseArgs (/usr/local/lib/node_modules/zoho-extension-toolkit/node_modules/commander/index.js:651:12)
+    at Command.parse (/usr/local/lib/node_modules/zoho-extension-toolkit/node_modules/commander/index.js:474:21)
+    at Object.<anonymous> (/usr/local/lib/node_modules/zoho-extension-toolkit/index.js:203:12)
+[error] [2024-06-26T16:04:36.774Z] : ✖ Error in parsing CLI command : Error: Cannot find module '/Users/mnubhan/Documents/Work/Aplikasi Sempurna/Project/Shimadzu/Demerit-Reference-Widget/server/index.js'
+Require stack:
+- /usr/local/lib/node_modules/zoho-extension-toolkit/lib/commands/run.js
+- /usr/local/lib/node_modules/zoho-extension-toolkit/index.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1075:15)
+    at Module._load (node:internal/modules/cjs/loader:920:27)
+    at Module.require (node:internal/modules/cjs/loader:1141:19)
+    at require (node:internal/modules/cjs/helpers:110:18)
+    at Object.run (/usr/local/lib/node_modules/zoho-extension-toolkit/lib/commands/run.js:11:5)
+    at Command.<anonymous> (/usr/local/lib/node_modules/zoho-extension-toolkit/index.js:66:33)
+    at Command.listener (/usr/local/lib/node_modules/zoho-extension-toolkit/node_modules/commander/index.js:315:8)
+    at Command.emit (node:events:513:28)
+    at Command.parseArgs (/usr/local/lib/node_modules/zoho-extension-toolkit/node_modules/commander/index.js:651:12)
+    at Command.parse (/usr/local/lib/node_modules/zoho-extension-toolkit/node_modules/commander/index.js:474:21)
+[error] [2024-06-26T16:04:54.433Z] : ✖ Error in parsing CLI command : Error: Cannot find module '/Users/mnubhan/Documents/Work/Aplikasi Sempurna/Project/Shimadzu/Demerit-Reference-Widget/server/index.js'
+Require stack:
+- /usr/local/lib/node_modules/zoho-extension-toolkit/lib/commands/run.js
+- /usr/local/lib/node_modules/zoho-extension-toolkit/index.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1075:15)
+    at Module._load (node:internal/modules/cjs/loader:920:27)
+    at Module.require (node:internal/modules/cjs/loader:1141:19)
+    at require (node:internal/modules/cjs/helpers:110:18)
+    at Object.run (/usr/local/lib/node_modules/zoho-extension-toolkit/lib/commands/run.js:11:5)
+    at Command.<anonymous> (/usr/local/lib/node_modules/zoho-extension-toolkit/index.js:66:33)
+    at Command.listener (/usr/local/lib/node_modules/zoho-extension-toolkit/node_modules/commander/index.js:315:8)
+    at Command.emit (node:events:513:28)
+    at Command.parseArgs (/usr/local/lib/node_modules/zoho-extension-toolkit/node_modules/commander/index.js:651:12)
+    at Command.parse (/usr/local/lib/node_modules/zoho-extension-toolkit/node_modules/commander/index.js:474:21)
